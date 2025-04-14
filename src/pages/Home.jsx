@@ -6,8 +6,8 @@ import About from "./About";
 const Home = () => {
   return (
     <>
-      <HeroSection></HeroSection>
-      <About></About>
+      <HeroSection />
+      <About />
     </>
   );
 };

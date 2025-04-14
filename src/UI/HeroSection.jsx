@@ -23,7 +23,10 @@ const HeroSection = () => {
         </div>
 
         <div className="hero-image">
-          <img src="/image.png" alt="World is beauty" />
+          <img
+            src="https://img.freepik.com/free-psd/earth-ball-planet-isolated_23-2151806121.jpg" // Correct path from public folder
+            alt="World map showing countries and landmarks"
+          />
         </div>
       </div>
     </main>
