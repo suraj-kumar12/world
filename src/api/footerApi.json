@@ -1,0 +1,22 @@
+
+[
+    {
+        "icon": "MdPlace",
+        "title": "Find us",
+        "details": "Pune Maharshtra"
+    },
+
+    {
+        "icon": "IoCallSharp",
+        "title": "Call us",
+        "details": "8340770571"
+    },
+
+    {
+        "icon": "TbMailPlus",
+        "title": "Mail us",
+        "details": "contact@altoit.com"
+    }
+
+   
+]

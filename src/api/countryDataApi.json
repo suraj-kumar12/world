@@ -1,0 +1,80 @@
+[
+    {
+      "id": 1,
+      "countryName": "World",
+      "capital": "No Capital",
+      "population": "Null",
+      "intrestingFact": "There are 195 countries in the world today, including 193 United Nation member states and 2 observer states."
+    },
+    {
+      "id": 2,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": "1393409038",
+      "intrestingFact": "India has the world's largest democracy and a rich cultural history."
+    },
+    {
+      "id": 3,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": "125800000",
+      "intrestingFact": "Japan is known for its cherry blossoms, sushi, and advanced robotics."
+    },
+    {
+      "id": 4,
+      "countryName": "Egypt",
+      "capital": "Cairo",
+      "population": "2123434546",
+      "intrestingFact": "There are 195 countries in the world today, including 193 UN member states and 2 observer states."
+    },
+    {
+      "id": 5,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": "213993437",
+      "intrestingFact": "Brazil is home to the Amazon Rainforest and famous for its Carnival festival."
+    },
+    {
+      "id": 6,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": "25687041",
+      "intrestingFact": "Australia is the only country that is also a continent and is famous for the Great Barrier Reef."
+    },
+    {
+      "id": 7,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": "83149300",
+      "intrestingFact": "Germany is known for its engineering, Oktoberfest, and being a leader in the EU."
+    },
+    {
+      "id": 8,
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": "38388419",
+      "intrestingFact": "Canada has more lakes than the rest of the world's lakes combined."
+    },
+    {
+      "id": 9,
+      "countryName": "South Africa",
+      "capital": "Pretoria (Administrative)",
+      "population": "59308690",
+      "intrestingFact": "South Africa has three capital cities and is known as the 'Rainbow Nation' due to its diversity."
+    },
+    {
+      "id": 10,
+      "countryName": "France",
+      "capital": "Paris",
+      "population": "67391582",
+      "intrestingFact": "France is the most visited country in the world and known for its fashion, cuisine, and the Eiffel Tower."
+    },
+    {
+      "id": 11,
+      "countryName": "Nepal",
+      "capital": "Kathmandu",
+      "population": "30000000",
+      "intrestingFact": "Nepal is home to Mount Everest, the highest peak in the world."
+    }
+  ]
+  
