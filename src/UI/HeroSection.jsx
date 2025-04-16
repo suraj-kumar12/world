@@ -1,5 +1,6 @@
 import React from "react";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import heroImage from "../assets/image.png"; // adjust the path as per your folder structure
 
 const HeroSection = () => {
   return (
@@ -23,10 +24,7 @@ const HeroSection = () => {
         </div>
 
         <div className="hero-image">
-          <img
-            src="https://img.freepik.com/free-psd/earth-ball-planet-isolated_23-2151806121.jpg" // Correct path from public folder
-            alt="World map showing countries and landmarks"
-          />
+          <img src={heroImage} alt="beauty of nature" />
         </div>
       </div>
     </main>

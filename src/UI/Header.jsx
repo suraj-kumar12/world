@@ -46,7 +46,7 @@ const Header = () => {
           </nav>
 
           <div className="ham-menu">
-            <button onClick={handleButtonToggle} className="btn">
+            <button onClick={handleButtonToggle} className="btn   ">
               <GiHamburgerMenu />
             </button>
           </div>

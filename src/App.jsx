@@ -9,39 +9,44 @@ import Errorpage from "./pages/Errorpage";
 import CountryDetails from "./components/Layout/CountryDetails";
 
 const App = () => {
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <AppLayout />,
+        errorElement: <Errorpage />,
+        children: [
+          {
+            path: "/",
+            element: <Home />,
+          },
+
+          {
+            path: "/about",
+            element: <About />,
+          },
+
+          {
+            path: "/contact",
+            element: <Contact />,
+          },
+
+          {
+            path: "country",
+            element: <Country />,
+          },
+
+          {
+            path: "country/:id",
+            element: <CountryDetails />,
+          },
+        ],
+      },
+    ],
     {
-      path: "/",
-      element: <AppLayout />,
-      errorElement: <Errorpage />,
-      children: [
-        {
-          path: "/",
-          element: <Home />,
-        },
-
-        {
-          path: "/about",
-          element: <About />,
-        },
-
-        {
-          path: "/contact",
-          element: <Contact />,
-        },
-
-        {
-          path: "country",
-          element: <Country />,
-        },
-
-        {
-          path: "country/:id",
-          element: <CountryDetails />,
-        },
-      ],
-    },
-  ]);
+      basename: "/world",
+    }
+  );
 
   return (
     <>
